@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25818" started-at="2021-06-13T09:35:02 IST" finished-at="2021-06-13T09:35:28 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25818" started-at="2021-06-13T09:35:02 IST" finished-at="2021-06-13T09:35:28 IST">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="startBrowser" is-config="true" duration-ms="13675" started-at="2021-06-13T09:35:02 IST" finished-at="2021-06-13T09:35:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="setup" is-config="true" duration-ms="1" started-at="2021-06-13T09:35:18 IST" finished-at="2021-06-13T09:35:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginTest(java.lang.String, java.lang.String)[pri:1, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="adminLoginTest" duration-ms="4101" started-at="2021-06-13T09:35:19 IST" description="Validating admin login fun" data-provider="login" finished-at="2021-06-13T09:35:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="setup" is-config="true" duration-ms="1" started-at="2021-06-13T09:35:23 IST" finished-at="2021-06-13T09:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoutTest()[pri:2, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="logoutTest" duration-ms="3607" started-at="2021-06-13T09:35:23 IST" description="Validating admin logout fun" depends-on-methods="com.learnautomation.testcases.LoginTest.adminLoginTest" finished-at="2021-06-13T09:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.learnautomation.testcases.LoginTest@45dd4eda]" name="closeBrowser" is-config="true" duration-ms="1825" started-at="2021-06-13T09:35:26 IST" finished-at="2021-06-13T09:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

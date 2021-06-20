@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 9.573 s <<< FAILURE! - in TestSuite
+com.learnautomation.testcases.LoginTest.startBrowser[, ](0)  Time elapsed: 3.767 s  <<< FAILURE!
+java.lang.NullPointerException
+
